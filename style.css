@@ -1,0 +1,208 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  border: 0px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: #2086fb;
+}
+
+.text-heading {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+header {
+  position: absolute;
+  background-color: rgba(136, 136, 136, 0.5);
+  text-align: center;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+header a.img-link {
+  float: left;
+  width: 80px;
+}
+
+header a .logo {
+  width: 100%;
+}
+
+header .navbar {
+  display: inline-block;
+  padding: 17px 0px;
+}
+
+header .navbar ul li {
+  float: left;
+  list-style-type: none;
+}
+
+header .navbar ul li a {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-right: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header .navbar ul li a:hover {
+  color: #000;
+}
+
+header .btn__nav {
+  background-color: #2086fb;
+  color: white;
+  float: right;
+  margin-top: 7px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+section.hero-section {
+  position: relative;
+  z-index: -1;
+  height: 67vh;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://i.ibb.co/5G96qLH/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+section .hero-content {
+  position: relative;
+  top: 30%;
+  padding: 0px 20%;
+}
+
+section .hero-content .search-bar .search-input {
+  padding: 20px 20px;
+  border: 5px solid rgba(136, 136, 136, 0.6);
+  background-clip: padding-box;
+  border-radius: 4px;
+  margin-top: 25px;
+  width: 100%;
+}
+
+section .hero-content .search-bar .search-icon {
+  position: relative;
+  font-size: 20px;
+  bottom: 40px;
+  right: 20px;
+  float: right;
+  color: #4a4a4a;
+  cursor: pointer;
+}
+
+main.feature-section {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 40px 40px;
+}
+
+main.feature-section .card {
+  float: left;
+  width: 25%;
+  padding: 50px 20px;
+  border-right: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+main.feature-section .card > a {
+  display: inline-block;
+}
+main.feature-section .card > h1 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4a4a4a;
+  padding: 20px 0px 10px;
+}
+
+main.feature-section .card > p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #858585;
+  line-height: 26px;
+}
+
+main.feature-section .card:nth-child(n + 5) {
+  border-bottom: 0px;
+}
+
+main.feature-section .card:nth-child(4n) {
+  border-right: 0px;
+}
+
+section.bottom-section {
+  background-color: #323232;
+  text-align: center;
+  padding: 60px 0px;
+  color: #fff;
+}
+
+section.bottom-section > h1 {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+section.bottom-section > h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+section.bottom-section > button {
+  padding: 10px 50px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+footer {
+  position: relative;
+  padding: 20px;
+  background-color: black;
+  text-align: left;
+}
+
+footer > p {
+  color: #fff;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .nav-top-link {
+  position: absolute;
+  left: 93%;
+  bottom: 60%;
+  padding: 5px 10px;
+  border: 0;
+  background-color: #4a4a4a;
+  color: #979797;
+  border-radius: 4px;
+  font-size: 20px;
+  text-decoration: none;
+}
